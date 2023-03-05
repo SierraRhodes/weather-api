@@ -2,7 +2,7 @@
 
 #### (Brief Description of Application)
 
-#### By (Sierra Rhoes)
+#### By (Sierra Rhodes)
 
 ## Technologies Used
 
