@@ -2,7 +2,7 @@
 
 #### (Brief Description of Application)
 
-#### By (Your Name Here)
+#### By (Sierra Rhoes)
 
 ## Technologies Used
 
@@ -15,11 +15,20 @@
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Set up basic project structure: Add index.html file, make src a directory and add index.js and project.js to the directory, go back to the root directory and make a css directory and add styles.css to it_
+* _Add .gitignore file to root directory and add node_modules/
+.DS_Store // only include this if you are on a Mac
+dist/ to the file. Make your first commit: git add .gitignore
+$ git commit -m "add .gitignore file to project"
+$ git push origin main_
+* _Install node if not done already. To check input node -v into command line_
+* _Open the command line then navigate to the root directory and input npm init -y_
+* _inside the command line run this command: npm install webpack@4.46.0 --save-dev --save-exact_
+* __
+* __
+* __
+* __
+* __
 
 ## Known Bugs
 
