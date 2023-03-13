@@ -36,7 +36,7 @@ function printError(request, apiResponse, city) {
 function printElements(apiResponse, city) {
   const weatherDescription = apiResponse.weather[0].description;
   document.querySelector('#showResponse').innerText = `The humidity in ${city} is ${apiResponse.main.humidity}%.
-  The temperature in Fahrenheit is ${apiResponse.main.temp} degrees. The weather overall is : ${weatherDescription}`;
+  The temperature in Fahrenheit is ${apiResponse.main.temp} degrees. Expect: ${weatherDescription}`;
 }
 
 function handleFormSubmission(event) {
